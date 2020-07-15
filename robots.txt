@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://scribl.ink/sitemap.xml
+Sitemap: https://www.scribl.ink/sitemap.xml
