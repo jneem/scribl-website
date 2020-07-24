@@ -15,6 +15,12 @@ title = "Scribl!"
 
 [extra]
 
+menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/install", name = "Install"},
+    {url = "$BASE_URL/devel", name = "Development"},
+]
+
 [extra.theme]
 foreground = "#333f48"
 background = "#ffffff"

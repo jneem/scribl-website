@@ -1,8 +1,9 @@
 html,
 body {
     color: $color-foreground;
-    margin: 1rem;
+    margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 html {
@@ -29,7 +30,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: normal;
 }
 @media screen and (max-width: $break-large) {
@@ -38,7 +39,7 @@ h2 {
     }
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 2.0rem;
     }
 }
 
@@ -49,4 +50,12 @@ img.portrait {
     height: auto;
     max-width: 300px;
     max-height: 300px;
+}
+
+#title {
+    box-sizing: border-box;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 300px;
+    display: inline-block;
 }
